@@ -20,9 +20,12 @@ namespace Biblioteca_Bernabini
     /// </summary>
     public partial class MainWindow : Window
     {
+        Biblioteca mondadori = new Biblioteca();
         public MainWindow()
         {
+           
             InitializeComponent();
+            
         }
 
         private void BtnAggiungiLibro_Click(object sender, RoutedEventArgs e)
@@ -37,12 +40,12 @@ namespace Biblioteca_Bernabini
 
         private void BtnContaLibri_Click(object sender, RoutedEventArgs e)
         {
-
+            BlkNumero.Text = mondadori.ContaLibri().ToString();
         }
 
         private void BtnRicercaLibro_Click(object sender, RoutedEventArgs e)
         {
-
+            
         }
     }
 }
