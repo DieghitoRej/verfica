@@ -18,6 +18,8 @@ namespace Biblioteca_Bernabini
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+    /// immagina dovere ripetere due commit perché lo screenshot è stato fatto alla consegna e non alla bash. bisogna veramente impegnarsi per sbagliare
+    /// a questi livelli!
     public partial class MainWindow : Window
     {
         Biblioteca mondadori = new Biblioteca();
