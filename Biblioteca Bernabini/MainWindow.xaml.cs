@@ -24,5 +24,25 @@ namespace Biblioteca_Bernabini
         {
             InitializeComponent();
         }
+
+        private void BtnAggiungiLibro_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BtnRicercaAutore_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BtnContaLibri_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BtnRicercaLibro_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
