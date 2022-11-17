@@ -7,6 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="49,76,0,0" VerticalAlignment="Top"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="49,242,0,0" VerticalAlignment="Top"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="509,76,0,0" VerticalAlignment="Top"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="509,242,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="153,76,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.543,-1.414"/>
+        <TextBox HorizontalAlignment="Left" Margin="608,78,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="153,242,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="504,295,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
