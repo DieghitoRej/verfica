@@ -24,7 +24,7 @@ namespace Biblioteca_Bernabini
         }
         internal string toString(Libro libro)
         {
-            return libro.autore +  titolo + annoDiPublicazione + editore + numeroDiPagine;
+            return libro.titolo + "autore: " +  autore + "anno di publicazione: " + annoDiPublicazione + "editore: " + editore + "numero di pagine: " + numeroDiPagine;
         }
         internal string readingTime(Libro libro)
         {
