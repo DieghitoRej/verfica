@@ -13,10 +13,12 @@ namespace Biblioteca_Bernabini
 
         internal double OrarioApertura { get; set; }
         internal double OrarioChiusura { get; set; }
+        internal List<Libro> ListaLibri { get; set; }
 
-        internal void AggiungiLibro(string autore, string nome, int annoDipublicazione, string editore, int numeroDiPagine)
+        internal void AggiungiLibro(string autore, string nome, string annoDiPublicazione, string editore, int numeroDiPagine)
         {
-
+            Libro libroDaAggiungere = new Libro(autore, nome, annoDiPublicazione, editore, numeroDiPagine);
+            ListaLibri.Add(libroDaAggiungere);
         }
         internal void RicercaLibro()
         {
@@ -28,7 +30,7 @@ namespace Biblioteca_Bernabini
         }
         internal int ContaLibri()
         {
-            return 0;
+            return ListaLibri.Count;
         }
 
 
